@@ -1,0 +1,33 @@
+{
+  "name": "ipp5-backend-batch-launcher",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "e53e04ac",
+  "homepage": "https://github.com/e53e04ac/ipp5-backend-batch-launcher#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e53e04ac/ipp5-backend-batch-launcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/e53e04ac/ipp5-backend-batch-launcher/issues"
+  },
+  "type": "module",
+  "types": "./index.d.ts",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "azure-terraformer": "github:e53e04ac/azure-terraformer",
+    "event-emitter": "github:e53e04ac/event-emitter",
+    "file-entry": "github:e53e04ac/file-entry",
+    "file-entry-native": "github:e53e04ac/file-entry-native",
+    "hold": "github:e53e04ac/hold",
+    "ipp5-types": "github:e53e04ac/ipp5-types"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
