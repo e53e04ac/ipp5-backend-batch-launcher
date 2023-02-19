@@ -15,8 +15,6 @@ export declare namespace Ipp5BackendBatchLauncher {
 
     type EnvMap = Ipp5BackendBatchEnvMap;
 
-    type EventSpecs = Record<never, never>;
-
     type Options = {
         readonly az: ValueOrGet<string>;
         readonly docker: ValueOrGet<string>;
@@ -40,6 +38,8 @@ export declare namespace Ipp5BackendBatchLauncher {
         readonly backendBatchAdlibitumServerUrn: ValueOrGet<string>;
         readonly backendBatchAdlibitumClientPublicKey: ValueOrGet<string>;
     };
+
+    type EventSpecs = Record<never, never>;
 
     type _Self = {
         readonly options: Get<Options>;
